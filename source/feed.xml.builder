@@ -1,10 +1,10 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "Gerard Cote's gSchool Blog"
-  xml.subtitle "My journey to becoming a Rails developer"
-  xml.id "http://gerards-gschool-blog.herokuapp.com/"
-  xml.link "href" => "http://gerards-gschool-blog.herokuapp.com/"
-  xml.link "href" => "http://gerards-gschool-blog.herokuapp.com/feed.xml", "rel" => "self"
+  xml.subtitle "A recovering MBA's journey to becoming a software developer"
+  xml.id "http://www.gerardcote.com/"
+  xml.link "href" => "http://www.gerardcote.com/"
+  xml.link "href" => "http://www.gerardcote.com/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Gerard Cote" }
 

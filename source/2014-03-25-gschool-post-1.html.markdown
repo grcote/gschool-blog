@@ -1,7 +1,7 @@
 ---
 title: gSchool - And so it begins...
 date: 2014-03-25 01:49 UTC
-tags:
+tags: ruby, capybara, tdd, pair programming, sinatra, rspec
 ---
 
 
@@ -17,3 +17,6 @@ Afternoon throws us in the deep end as we struggle to utilize the knowledge impa
 Along with learning how to pair the first three weeks of the program we have focused our efforts on Ruby, Test Driven Development using RSpec, creating dynamic websites, Git and Sinatra. Week 4 promises more of the above and the introduction of Capybara (the testing gem, not the staple of giant anacondas).
 
 Check back next week to see if I’ve upgraded the water wings.
+
+
+*[Gerard Cote](mailto:grcote@gmail.com) is a recovering MBA learning to code. He lives in Boulder, CO.*
