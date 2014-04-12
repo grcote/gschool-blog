@@ -81,9 +81,6 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :syntax
 
-activate :asset_hash do |opts|
-  opts.exts += $(.ico)
-end
 
 # Build-specific configuration
 configure :build do
