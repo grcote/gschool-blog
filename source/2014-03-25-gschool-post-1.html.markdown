@@ -1,12 +1,10 @@
 ---
-title: gSchool - And so it begins...
+title: Gerard Cote's gSchool Blog
 date: 2014-03-25 01:49 UTC
 tags: ruby, capybara, tdd, pair programming, sinatra, rspec
 ---
 
-
-
-If you’re wondering what [gSchool](https://www.gschool.it/) is like, it’s kind of like being [the guy in the chair](https://www.youtube.com/watch?v=Zk71h2CQ_xM).
+**gSchool - And so it begins...** If you’re wondering what [gSchool](https://www.gschool.it/) is like, it’s kind of like being [the guy in the chair](https://www.youtube.com/watch?v=Zk71h2CQ_xM).
 
 Three weeks in and we’ve all been drinking straight from the hydrant. Our minds are woozy with arrays of vocab words like methods, classes, symbols, procs, lambdas, iterations, TDD, refactoring, keys and hash rockets. If these terms sound foreign to you then you are probably not a web application software engineer (or trying to become one).
 
