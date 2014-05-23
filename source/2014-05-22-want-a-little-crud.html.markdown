@@ -36,7 +36,7 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
 6. *Run your tests*
     - `$ rspec`
 7. *Startup up your webserver in your app's directory*
-    - `$ rails s'
+    - `$ rails s`
 
 ---
 
