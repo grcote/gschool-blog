@@ -35,6 +35,8 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
       - `$ rake db:migrate` and `$ rake db:migrate RAILS_ENV=test`
 6. *Run your tests*
     - `$ rspec`
+7. *Startup up your webserver in your app's directory*
+    - `$ rails s'
 
 ---
 
