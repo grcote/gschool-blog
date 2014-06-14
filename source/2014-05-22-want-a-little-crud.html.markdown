@@ -8,7 +8,7 @@ Are you new to Rails? If so, you're probably getting knee-deep into __CRUD__ (**
 
 Below I've written tests based on the *Story* for the *Create* action in CRUD. The  associated code will make the tests pass. You can use this guide as a reference when practicing/implementing CRUD.
 
-In subsequent posts, I'll do the same thing for the **RUD** (**R**ead, **U**pdate & **D**elete) actions.
+In subsequent posts, I'll do the same thing for the **RUD** ([**R**ead](http://www.gerardcote.com/2014/06/13/the-r-in-crud.html), **U**pdate & **D**elete) actions.
 
 ---
 ### Getting Started
@@ -137,7 +137,7 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
 ---
 ####More to Come...
 
-Check back in subsequent posts for more on CRUD.
+Check back in subsequent posts for more on __CRUD__ (**C**reate, [Read](http://www.gerardcote.com/2014/06/13/the-r-in-crud.html), **U**pdate and **D**elete.)
 
 ---
 
