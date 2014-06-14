@@ -110,9 +110,10 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
 *(config/routes.rb)*
 
     root to: 'items#index'
-    get '/items/new', to: 'items#new',
+    get '/items/new', to: 'items#new', as: 'new_item'
+    post '/items', to: 'items#create'
 
-*Note that he code to generate routes for this app is done one action at a time to help with learning.*
+*Note that the code to generate routes for this app is done one action at a time to help with learning.*
 
 ---
 ###Screen Shots
