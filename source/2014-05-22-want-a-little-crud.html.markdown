@@ -22,7 +22,7 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
     - the example uses a Postgres database
     - the example uses RSpec instead of Test-Unit
 2. *Create the Databases (test and development)*
-    - `$ rake db:create:all`
+    - `$ rake db:create`
 3. *Add the Gems listed to the Gemfile and bundle*
     - [RSpec for Rails](https://rubygems.org/gems/rspec-rails), [Postgres](https://rubygems.org/gems/pg), [Capybara](https://rubygems.org/gems/capybara) and [ActiveRecord](https://rubygems.org/gems/activerecord)
     - `$ bundle install`
@@ -48,16 +48,16 @@ For the app we'll be using [RSpec for Rails](https://rubygems.org/gems/rspec-rai
 ###Write Your Test
 *(spec/features/item_spec.rb)*
 
-    require_relative '../spec_helper‘
+    require 'spec_helper'
 
     feature 'create and index page' do
       scenario 'user can create an item' do
         visit '/'
         click_on 'Create Item'
-        fill_in 'Item Name', with: "My Item"
+        fill_in 'Item Name', with: "My First Item"
         click_on 'Create Item'
 
-        expect(page).to have_content("My Item")
+        expect(page).to have_content("My First Item")
       end
     end
 ---
