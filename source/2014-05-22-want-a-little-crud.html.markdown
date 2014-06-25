@@ -8,7 +8,7 @@ Are you new to Rails? If so, you're probably getting knee-deep into __CRUD__ (**
 
 Below I've written tests based on the *Story* for the *Create* action in CRUD. The  associated code will make the tests pass. You can use this guide as a reference when practicing/implementing CRUD.
 
-In subsequent posts, I'll do the same thing for the **RUD** ([**R**ead](http://www.gerardcote.com/2014/06/13/the-r-in-crud.html), **U**pdate & **D**elete) actions.
+In subsequent posts, I'll do the same thing for the **RUD** ([**R**ead](http://www.gerardcote.com/2014/06/13/the-r-in-crud.html), [**U**pdate](http://www.gerardcote.com/2014/06/25/the-u-in-crud.html) & **D**elete) actions.
 
 ---
 ### Getting Started
